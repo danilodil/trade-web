@@ -1,4 +1,5 @@
 import React from 'react';
+import './video.css';
 
 type VideoProps = {
   autoPlay?: boolean;

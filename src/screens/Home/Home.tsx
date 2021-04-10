@@ -10,12 +10,8 @@ export const Home: React.FC = () => {
         src={VIDEO_DATA.HOME.src}
         type={VIDEO_DATA.HOME.format}
         style={{
-          zIndex: -1,
-          position: "fixed",
-          top: 0,
-          left: 0,
           width: '100%',
-          height: 'auto',
+          height: '100%',
         }}
       />
     </>
