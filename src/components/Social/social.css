@@ -89,4 +89,17 @@
     .social-items {
         grid-template-columns: 100%
     }
+
+
+    .instagram::before {
+        top: 3px;
+    }
+
+    .telegram,
+    .twitter,
+    .facebook,
+    .discord,
+    .instagram::before {
+        background-size: 22px;
+    }
 }

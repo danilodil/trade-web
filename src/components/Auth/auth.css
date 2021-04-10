@@ -8,6 +8,7 @@
     background: var(--black);
     color: var(--white);
     overflow-y: auto;
+    opacity: .95;
 }
 
 .auth-content {
@@ -45,8 +46,8 @@
 }
 
 .auth-back {
-    top: 1em;
-    right: 3em;
+    top: 1.5em;
+    right: 5em;
     position: absolute;
 }
 
