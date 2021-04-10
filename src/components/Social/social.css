@@ -76,3 +76,9 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+@media screen and (max-width: 567px){
+    .social-items {
+        grid-template-columns: 100%
+    }
+}

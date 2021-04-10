@@ -65,6 +65,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-bottom: 2em;
 }
 
@@ -91,4 +92,19 @@
     flex-wrap: wrap;
     align-content: center;
     margin-bottom: 1.8em;
+}
+
+@media screen and (max-width: 767px) {
+    .auth-container {
+        font-size: 0.8em;
+    }
+    .auth-back {
+        font-size: 0.9em;
+    }
+    .auth-signup-fields > *:first-child {
+        margin-bottom: 0.5em;
+    }
+    .auth-signup-fields input {
+        margin: 0;
+    }
 }
