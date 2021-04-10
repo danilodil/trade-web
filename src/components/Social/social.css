@@ -10,7 +10,11 @@
     margin: 0 auto;
 }
 
+
 .social_btn-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 300px;
     width: 100%;
     padding: .8em 1.8em;
@@ -18,6 +22,10 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
+    border-radius: 0.3em;
 }
 
 .telegram {
@@ -66,7 +74,7 @@
 
 .instagram::before {
     content: '';
-    top: 10px;
+    top: 7px;
     left: 10px;
     position: absolute;
     width: 28px;

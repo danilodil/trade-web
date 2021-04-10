@@ -8,12 +8,24 @@ export const Social: React.FC = () => (
       Or continue with
     </p>
     <div className="social-items">
-      <button className="social_btn-item google">Google</button>
-      <button className="social_btn-item telegram">Telegram</button>
-      <button className="social_btn-item discord">Discord</button>
-      <button className="social_btn-item facebook">Facebook</button>
-      <button className="social_btn-item instagram">Instagram</button>
-      <button className="social_btn-item twitter">Twitter</button>
+      <a className="social_btn-item google">
+        Google
+      </a>
+      <a href='/' className="social_btn-item telegram">
+        Telegram
+      </a>
+      <a href='/' className="social_btn-item discord">
+        Discord
+      </a>
+      <a href='/' className="social_btn-item facebook">
+        Facebook
+      </a>
+      <a href='/' className="social_btn-item instagram">
+        Instagram
+      </a>
+      <a href='/' className="social_btn-item twitter">
+        Twitter
+      </a>
     </div>
   </div>
 );
