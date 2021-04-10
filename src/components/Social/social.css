@@ -20,24 +20,59 @@
     font-weight: 700;
 }
 
-.telegram,
+.telegram {
+    background: var(--lightBlue);
+    background-image: url('../../icons/telegram.svg');
+}
+
 .twitter {
     background: var(--lightBlue);
+    background-image: url('../../icons/twitter.svg');
 }
 
 .discord {
     background: var(--darkBlue1);
+    background-image: url('../../icons/discord.svg');
 }
 
 .facebook {
     background: var(--darkBlue);
+    background-image: url('../../icons/facebook.svg');
 }
 
 .google {
     background: var(--lightBlue1);
+    background-image: url('../../icons/search.svg');
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+
+.telegram,
+.twitter,
+.facebook,
+.discord {
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
 }
 
 .instagram {
+    position: relative;
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.instagram::before {
+    content: '';
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-image: url('../../icons/instagram.svg');
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }

@@ -14,15 +14,15 @@ export const Auth: React.FC<AuthProps> = (props) => {
   const borderRadius =  '1.8em';
   const [email, InputEmail] = useInput({
     className: 'auth-input border-gradient',
-    placeHolder: 'Email',
-    initialValue: null,
+    placeholder: 'Email',
+    initialValue: '',
     name: 'email',
     type: 'email'
   });
   const [password, InputPassword] = useInput({
     className: 'auth-input border-gradient',
-    placeHolder: 'Password',
-    initialValue: null,
+    placeholder: 'Password',
+    initialValue: '',
     name: 'password',
     type: 'password',
   });
