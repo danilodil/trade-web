@@ -2,11 +2,11 @@ import React, {useState} from 'react';
 import './header.css';
 import { Auth } from "../Auth";
 import { Button } from "../Buttons";
+import { TEXT } from "../../constants";
 
 export const Header: React.FC = () => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
   const handleClick = () => {
-    console.log('click');
     setIsVisible(true);
   };
 
@@ -19,14 +19,14 @@ export const Header: React.FC = () => {
   return (
     <header>
       <a className="logo conthrax" href='#'>
-        <img src={'/assets/images/logo.jpg'} alt="Trade"/>
-        trade
+        <img src={'/assets/images/logo.jpg'} alt={TEXT.TITLE}/>
+        {TEXT.TITLE}
       </a>
       <Button
         className="gradient"
         onClick={handleClick}
       >
-        Sign Up
+        {TEXT.BUTTON.SIGN_UP}
       </Button>
     </header>
   );

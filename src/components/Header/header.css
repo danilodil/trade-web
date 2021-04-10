@@ -3,15 +3,15 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1em 5em;
-    color: #ffffff;
-    background: #0A0A0A;
+    color: var(--white);
+    background: var(--black);
 }
 
 .logo {
     display: flex;
     align-items: center;
     font-size: 2em;
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
     text-transform: uppercase;
 }

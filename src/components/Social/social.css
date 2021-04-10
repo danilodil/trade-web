@@ -1,0 +1,43 @@
+.social_title {
+    margin-bottom: 1.2em;
+    font-size: 1.3em;
+}
+
+.social-items {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.social_btn-item {
+    max-width: 300px;
+    width: 100%;
+    padding: .8em 1.8em;
+    margin: 0 auto 0.8em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.telegram,
+.twitter {
+    background: var(--lightBlue);
+}
+
+.discord {
+    background: var(--darkBlue1);
+}
+
+.facebook {
+    background: var(--darkBlue);
+}
+
+.google {
+    background: var(--lightBlue1);
+}
+
+.instagram {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}

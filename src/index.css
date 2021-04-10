@@ -1,3 +1,12 @@
+:root {
+  --black: #0A0A0A;
+  --white: #ffffff;
+  --lightBlue: #2ba1e1;
+  --lightBlue1: #3f76d1;
+  --darkBlue: #24518c;
+  --darkBlue1: #4d5fa1;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,6 +24,14 @@ code {
 .gradient {
   background: rgb(11,233,246);
   background: linear-gradient(90deg, rgba(11,233,246,1) 0%, rgba(254,79,216,1) 100%);
+}
+
+.gradient-border {
+  padding: 3px;
+}
+
+.gradient-border > *{
+  width: 100% !important;
 }
 
 .conthrax {
